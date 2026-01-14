@@ -1,0 +1,10 @@
+if SHIELD_EYELASH_SOFLE_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default n
+
+endif
+
