@@ -1,0 +1,525 @@
+layout: {zmk_keyboard: eyelash_sofle}
+layers:
+  layer0:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - UP
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - DOWN
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - ''
+  - ''
+  - {t: A, h: LGUI}
+  - {t: S, h: LALT}
+  - {t: D, h: LCTRL}
+  - {t: F, h: LSHFT}
+  - G
+  - LEFT
+  - H
+  - {t: J, h: LSHFT}
+  - {t: K, h: LCTRL}
+  - {t: L, h: LALT}
+  - {t: ;, h: LGUI}
+  - ''
+  - ''
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - RIGHT
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - ''
+  - MUTE
+  - {t: layer7, h: toggle}
+  - ''
+  - {t: ESCAPE, h: layer1}
+  - {t: SPACE, h: layer2}
+  - {t: TAB, h: layer3}
+  - ENTER
+  - {t: ENTER, h: layer4}
+  - {t: BACKSPACE, h: layer5}
+  - {t: DELETE, h: layer6}
+  - \
+  - ''''
+  layer1:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - UP
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - DOWN
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LGUI
+  - LALT
+  - LCTRL
+  - LSHFT
+  - ''
+  - LEFT
+  - ''
+  - PREV
+  - VOL UP
+  - VOL DN
+  - NEXT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - RIGHT
+  - ''
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - ''
+  - MUTE
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - STOP
+  - PP
+  - MUTE
+  - ''
+  - ''
+  layer2:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - UP
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - DOWN
+  - REDO
+  - Ctl+V
+  - Ctl+C
+  - Ctl+X
+  - UNDO
+  - ''
+  - ''
+  - LGUI
+  - LALT
+  - LCTL
+  - LSHFT
+  - ''
+  - LEFT
+  - CAPS
+  - LEFT
+  - UP
+  - DOWN
+  - RIGHT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - RIGHT
+  - INSERT
+  - HOME
+  - PG UP
+  - PG DN
+  - END
+  - ''
+  - MUTE
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - '-'
+  - ENTER
+  - ''
+  - BACKSPACE
+  - DELETE
+  - ''
+  - ''
+  layer3:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - UP
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - DOWN
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LGUI
+  - LALT
+  - LCTRL
+  - LSHFT
+  - ''
+  - LEFT
+  - ''
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - RIGHT
+  - ''
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_UP'
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_RIGHT'
+  - ''
+  - MUTE
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - '&mkp RCLK'
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  - ''
+  - ''
+  layer4:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - UP
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Sft+[
+  - Sft+7
+  - Sft+8
+  - Sft+9
+  - Sft+]
+  - DOWN
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Sft+;
+  - Sft+4
+  - Sft+5
+  - Sft+6
+  - '='
+  - LEFT
+  - ''
+  - LSHFT
+  - LCTL
+  - LALT
+  - LGUI
+  - ''
+  - ''
+  - Sft+`
+  - Sft+1
+  - Sft+2
+  - Sft+3
+  - Sft+\
+  - RIGHT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - MUTE
+  - ''
+  - ''
+  - Sft+9
+  - Sft+0
+  - Sft+-
+  - ENTER
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  layer5:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - UP
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '['
+  - '7'
+  - '8'
+  - '9'
+  - ']'
+  - DOWN
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ;
+  - '4'
+  - '5'
+  - '6'
+  - Sft+=
+  - LEFT
+  - ''
+  - LSHFT
+  - LCTL
+  - LALT
+  - LGUI
+  - ''
+  - ''
+  - '`'
+  - '1'
+  - '2'
+  - '3'
+  - \
+  - RIGHT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - MUTE
+  - ''
+  - ''
+  - .
+  - '0'
+  - '-'
+  - ENTER
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  layer6:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - UP
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - F12
+  - F7
+  - F8
+  - F9
+  - PSCRN
+  - DOWN
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - F11
+  - F4
+  - F5
+  - F6
+  - SLCK
+  - LEFT
+  - ''
+  - LSHFT
+  - LCTL
+  - LALT
+  - LGUI
+  - ''
+  - ''
+  - F10
+  - F1
+  - F2
+  - F3
+  - PAUSE BREAK
+  - RIGHT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - MUTE
+  - ''
+  - ''
+  - APP
+  - SPACE
+  - TAB
+  - ENTER
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  layer7:
+  - ESCAPE
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - UP
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - BSPC
+  - TAB
+  - T
+  - Q
+  - W
+  - E
+  - R
+  - DOWN
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - ''
+  - LCTRL
+  - G
+  - A
+  - S
+  - D
+  - F
+  - LEFT
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''
+  - LSHFT
+  - B
+  - Z
+  - X
+  - C
+  - V
+  - RIGHT
+  - N
+  - M
+  - ','
+  - .
+  - \
+  - ''
+  - MUTE
+  - {t: layer7, h: toggle}
+  - ENTER
+  - ESCAPE
+  - SPACE
+  - TAB
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+combos:
+- p: [14, 28, 40]
+  k: '&soft_off'
