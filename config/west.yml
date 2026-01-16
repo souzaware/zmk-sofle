@@ -16,8 +16,8 @@ manifest:
       url: https://github.com/a741725193/zmk-sofle
       revision: main
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      url: https://github.com/carrefinho/zmk
+      revision: split-characteristic-fix
       import: app/west.yml
   self:
     path: boards
